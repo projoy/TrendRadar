@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-08-01 13:55:02</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">英伟达 NVIDIA</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2102993" target="_blank" class="news-link">【早报】国常会重磅部署！大力推进人工智能规模化商业化应用；国家网信办约谈英伟达</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时55分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7533437301636992575/" target="_blank" class="news-link">英伟达被约谈有多严重</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时55分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E4%B8%AD%E6%96%B9%E7%BA%A6%E8%B0%88%E8%8B%B1%E4%BC%9F%E8%BE%BE" target="_blank" class="news-link">外交部回应中方约谈英伟达</a> [27] <font color='grey'>- 13时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2097911" target="_blank" class="news-link">云天励飞战略聚焦AI芯片，三大核心布局押注推理蓝海</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时55分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2102985" target="_blank" class="news-link">苹果财报大超预期！营收创近四年新高，但难掩AI焦虑与关税阴云</a> [7] <font color='grey'>- 13时55分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752362" target="_blank" class="news-link">国常会：通过《关于深入实施“人工智能+”行动的意见》，实施个人消费贷款贴息政策与服务业经营主体贷款贴息政策</a> [9] <font color='grey'>- 13时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">股票 基金 量化</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3752396" target="_blank" class="news-link">达利欧彻底退出桥水基金，文莱主权基金成新晋大股东</a> [8] <font color='grey'>- 13时55分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">微软 Microsoft</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2102974" target="_blank" class="news-link">美股收盘：微软Meta大涨难救大盘 三大指数集体收跌</a> [6] <font color='grey'>- 13时55分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3752345" target="_blank" class="news-link">美股冲高回落收跌，芯片股溃败，绩后苹果涨3%、亚马逊大跌，国内夜盘期货普跌</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时55分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3752396" target="_blank" class="news-link">达利欧彻底退出桥水基金，文莱主权基金成新晋大股东</a> [8]</li></ul></div>
+        </body>
+        </html>
+        
