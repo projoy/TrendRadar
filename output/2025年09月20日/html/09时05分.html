@@ -1,0 +1,130 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-09-20 09:05:40</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">iphone ipad mac ios</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%AC%AC%E4%B8%80%E6%89%B9iPhone17%E8%B4%B4%E8%86%9C%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0%E4%BA%86" target="_blank" class="news-link">第一批iPhone17贴膜受害者出现了</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 09时05分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Tim%E4%B8%8E%E8%8B%B9%E6%9E%9C%E9%AB%98%E7%AE%A1%E4%B8%80%E8%B5%B7%E5%BC%80%E7%AE%B1%E6%96%B0iPhone" target="_blank" class="news-link">Tim与苹果高管一起开箱新iPhone</a> [9] <font color='grey'>- 09时05分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7551741552121351743/" target="_blank" class="news-link">iPhone 17首销冰火两重天</a> [11] <font color='grey'>- 09时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">chatgpt openai</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755928" target="_blank" class="news-link">OpenAI加速挖苹果墙角：与立讯精密达成硬件制造协议，计划在2026年末或2027年初推出首款设备</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 09时05分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2150781" target="_blank" class="news-link">OpenAI首批智能硬件传出新消息</a> [7] <font color='grey'>- 09时05分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%99%BE%E4%B8%87%E5%BD%95%E9%9F%B3%E6%A3%9A%E5%AE%9E%E6%B5%8BAirPods%20Pro%203" target="_blank" class="news-link">百万录音棚实测AirPods Pro 3</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 09时05分</font></div><br>[财联社热门] <a href="https://www.cls.cn/detail/2150725" target="_blank" class="news-link">特斯拉Optimus AI团队负责人投奔Meta，马斯克雄心受考验</a> [13] <font color='grey'>- 09时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">机器人</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3755887" target="_blank" class="news-link">股债商齐跌！A股三大股指收跌，机器人概念股集体调整，恒科指涨0.37%，医药生物股大跌</a> [9] <font color='grey'>- 09时05分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2150657" target="_blank" class="news-link">美股三大期指小幅走高 特斯拉机器人团队高管跳槽 | 今夜看点</a> [12] <font color='grey'>- 09时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">英伟达 NVIDIA</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345095&amp;amp;topic_name=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%BF%BB%E8%BD%A6%21%E5%B8%82%E5%9C%BA%E7%9B%91%E7%AE%A1%E5%B1%80%E5%86%8D%E5%87%BA%E6%89%8B" target="_blank" class="news-link">英伟达翻车!市场监管局再出手</a> [27] <font color='grey'>- 09时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2150422" target="_blank" class="news-link">【焦点复盘】沪指冲高回落跌0.3%，高位抱团人气股遭遇批量瓦解，光刻机概念领涨芯片股</a> [11] <font color='grey'>- 09时05分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31635041" target="_blank" class="news-link">市场监管总局依法决定对成都快购科技有限公司立案调查</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 09时05分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%AC%AC%E4%B8%80%E6%89%B9iPhone17%E8%B4%B4%E8%86%9C%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0%E4%BA%86" target="_blank" class="news-link">第一批iPhone17贴膜受害者出现了</a> <font color='red'><strong>[4]</strong></font></li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E7%99%BE%E4%B8%87%E5%BD%95%E9%9F%B3%E6%A3%9A%E5%AE%9E%E6%B5%8BAirPods%20Pro%203" target="_blank" class="news-link">百万录音棚实测AirPods Pro 3</a> <font color='red'><strong>[3]</strong></font></li></ul><h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2150781" target="_blank" class="news-link">OpenAI首批智能硬件传出新消息</a> [7]</li></ul></div>
+        </body>
+        </html>
+        
